@@ -1,0 +1,314 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    padding: 0;
+    margin: 0;
+    
+}
+
+/* header */
+.header{
+    height: 594px;
+    width: 100%;
+    background-color: #DBDBDB;
+}
+
+@media (min-width: 376px) {
+    .header{
+        height: 660px;
+    }
+}
+.header-container-1{
+    
+    height: 54px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.h1{
+    font-family: 'Open Sans';
+}
+
+.header-container-1-max{
+    display: none;
+    
+    
+    height: 54px;
+}
+
+.nav{
+    
+    display: flex;
+    justify-content: space-between;
+    height: 28px;
+    width: 428px;
+    margin: 1%;
+    
+}
+
+.a-nav{
+    text-decoration: none;
+    font-size: 24px;
+    color: #000000;
+    font-family: "Roboto";
+}
+
+@media (min-width: 376px) {
+    .header-container-1{
+        display: none;
+    }
+
+    .header-container-1-max{
+        display: flex;
+        justify-content: space-between;
+        height: 145px;
+    }
+}
+
+
+.h1{
+    
+    margin-top: auto;
+    font-size: 48px;
+    width: 290px;
+    height: 107px; 
+    text-align: center;
+}
+
+.header-container-2{
+    height: 540px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+}
+
+@media (min-width: 376px) {
+    .header-container-2{
+        height: 449px;
+    }
+}
+/* FIN header */
+
+
+/* main */
+.main{
+    
+    
+    height: 538px;
+    width: 100%;
+    background-color: #141414; 
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.container-main-1{
+    
+    align-items: center;
+    padding: 5%;
+}
+
+.h2-main{
+    text-align: center;
+    font-family: 'Open Sans';
+    font-size: 32px;
+    color: white;
+}
+
+.p-main{
+    font-family: 'Roboto';
+    font-size: 24px;
+    color: white;
+}
+
+.container-main-2{
+    
+    display: flex;
+    justify-content: center;
+}
+
+@media (min-width: 376px) {
+    .main{
+        flex-direction: row-reverse;
+        align-items: center;
+    }
+
+    .container-main-1{
+        width: 532px;
+        height: 237px;
+        padding: 0;
+    }
+
+    .container-main-2{
+        width: 211px;
+        height: 211px;
+    }
+}
+/* Fin main */
+
+/* Servicios */
+.section-servicios{
+    height: 1375px;
+    width: 100%;
+    background-color: #FAFAFA; 
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    height: 100%;
+    padding: 5%;
+}
+
+.container-h2{
+    text-align: center;
+}
+
+.h2-servicios{
+    font-family: 'Open Sans';
+}
+
+.container-servicios{
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 1124px;
+    text-align: center;
+    padding: 10%;
+}
+
+.caja-servicios{
+    font-family: 'Roboto';
+}
+
+@media (min-width: 376px) {
+    .section-servicios{
+        height: 604px;
+    }
+
+    .container-servicios{
+        flex-direction: row;
+        
+    }
+
+    .caja-servicios{
+        height: 250px;
+        width: 262px;
+        margin-right: 8%;
+    }
+    
+    .p-servicios{
+        font-size: 14px;
+    }
+}
+/* Fin Servicios */
+
+/* Formulario */
+.section-formulario{
+    
+    height: 660px;
+    width: 100%;
+    background-color: #141414; 
+    
+}
+
+.container-formulario{
+   
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 100%;
+    color: #FAFAFA;
+}
+
+.formulario{
+    width: 100%;
+    margin: auto;
+    
+}
+
+.legend{
+    font-size: 32px;
+    text-align: center;
+    margin-bottom: 60px;
+    font-family: 'Open Sans';
+}
+
+.fieldset{
+    border: none;
+}
+
+.container-labels{
+    width: 100%;
+}
+
+.label{
+    display: block;
+    font-family: 'Roboto';
+}
+
+.input{
+    display: block;
+    width: 100%;
+    margin-bottom: 27px;
+}
+
+.boton{
+    background-color: #FFD953;
+    width: 100%;
+    height: 45px;
+    color: #141414;
+    text-align: center;
+}
+
+.boton{
+    border-radius: 1%;
+}
+    
+@media (min-width: 376px) {
+    .section-formulario{
+        height: 660px;
+    }
+
+    .formulario{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        
+    }
+
+    .container-labels{
+        height: 450px;
+        width: 376px;
+    }
+}
+/* Fin Formulario */
+
+/* Footer */
+.footer{
+    
+    height: 493px;
+    width: 100%;
+    background-color: #DBDBDB; 
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 5%;
+}
+
+.img-redes{
+    float: left;
+}
+
+@media (min-width: 376px) {
+    .footer{
+        height: 346px;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+    }
+}
+
+/* Fin Footer */
